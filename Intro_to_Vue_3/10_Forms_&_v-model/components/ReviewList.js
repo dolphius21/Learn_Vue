@@ -5,9 +5,7 @@ app.component('review-list', {
       required: true
     }
   },
-  template:
-    /*html*/
-    `
+  template: /*html*/ `
   <div class="review-container">
   <h3>Reviews:</h3>
     <ul>

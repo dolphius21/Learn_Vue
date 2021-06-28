@@ -5,9 +5,9 @@ app.component('product-details', {
       required: true
     }
   },
-  template:
-    /*html*/
-    `<ul>
+  template: /*html*/ `
+    <ul>
       <li v-for="detail in details">{{ detail }}</li>
-    </ul>`
+    </ul>
+  `
 });
